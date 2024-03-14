@@ -4,6 +4,7 @@ import { WinBoard } from './components/winboard/index.jsx'
 import { cards } from './assets/constants/constants.jsx'
 
 const shuffle = (array) => {
+  console.log(array)
   let current = array.length
   while (current !== 0) {
     let position =  Math.floor(Math.random() * current);
